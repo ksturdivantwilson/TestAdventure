@@ -3,5 +3,5 @@
 
 
 //Enemy moves toward player
-var enemySpeed = 2;
-move_towards_point(oPlayer.x, oPlayer.y, enemySpeed);
+var enemySpeed = 1.2;
+move_towards_point(oPlayerRogue.x, oPlayerRogue.y, enemySpeed);
