@@ -15,5 +15,5 @@ inputMagnitude = (inRight - inLeft != 0) || (inDown - inUp != 0);
 hSpeed = lengthdir_x(inputMagnitude * speedWalk,inputDirection);
 vSpeed = lengthdir_y(inputMagnitude * speedWalk,inputDirection);
 
-x+= hSpeed *2;
-y+= vSpeed  *2;
+x+= hSpeed;
+y+= vSpeed;
