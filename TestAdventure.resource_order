@@ -58,6 +58,8 @@
     {"name":"Player","order":1,"path":"folders/Sprites/Entity/Player.yy",},
     {"name":"Enemy","order":2,"path":"folders/Sprites/Entity/Enemy.yy",},
     {"name":"Rat","order":1,"path":"folders/Sprites/Entity/Enemy/Rat.yy",},
+    {"name":"Weapons","order":6,"path":"folders/Sprites/Weapons.yy",},
+    {"name":"Weapons","order":1,"path":"folders/Objects/Entity/Player/Weapons.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sprPenis","order":1,"path":"sprites/sprPenis/sprPenis.yy",},
@@ -99,7 +101,7 @@
     {"name":"__input_class_gamepad_mapping","order":5,"path":"scripts/__input_class_gamepad_mapping/__input_class_gamepad_mapping.yy",},
     {"name":"__input_gamepad_set_blacklist","order":3,"path":"scripts/__input_gamepad_set_blacklist/__input_gamepad_set_blacklist.yy",},
     {"name":"__input_key_is_ignored","order":1,"path":"scripts/__input_key_is_ignored/__input_key_is_ignored.yy",},
-    {"name":"sPlayerRun","order":4,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
+    {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"input_binding_gamepad_set","order":1,"path":"scripts/input_binding_gamepad_set/input_binding_gamepad_set.yy",},
     {"name":"input_debug_player_input","order":2,"path":"scripts/input_debug_player_input/input_debug_player_input.yy",},
     {"name":"input_player_import","order":2,"path":"scripts/input_player_import/input_player_import.yy",},
