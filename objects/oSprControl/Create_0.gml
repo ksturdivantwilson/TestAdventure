@@ -25,7 +25,7 @@ for(   var width  = 0; width  < getRoomWidth;  width++ ){
 	  5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
 	  6,6,
 	  7,7,
-	  8,9,10,11);
+	  8,9,10,11, 12);
 
 
        // set this brush/tile index a flip the cell of the tileset to this random one

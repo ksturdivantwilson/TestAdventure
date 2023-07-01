@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sTree",
-  "bbox_bottom": 15,
+  "bbox_bottom": 31,
   "bbox_left": 0,
   "bbox_right": 15,
   "bbox_top": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 16,
+  "height": 32,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"241c76e5-6946-43cf-a2fd-5ccfb54a6bb6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},

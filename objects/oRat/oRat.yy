@@ -1,15 +1,18 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oTree",
+  "name": "oRat",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Other",
-    "path": "folders/Objects/Other.yy",
+    "name": "Rats",
+    "path": "folders/Objects/Entity/Enemy/Rats.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oRatParent",
+    "path": "objects/oRatParent/oRatParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sTree",
-    "path": "sprites/sTree/sTree.yy",
+    "name": "sprRatIdle",
+    "path": "sprites/sprRatIdle/sprRatIdle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sprRatIdle",
+    "path": "sprites/sprRatIdle/sprRatIdle.yy",
+  },
   "visible": true,
 }
