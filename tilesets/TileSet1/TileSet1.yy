@@ -16,15 +16,15 @@
     "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
-    "name": "sTileSetTest",
-    "path": "sprites/sTileSetTest/sTileSetTest.yy",
+    "name": "sprTileSetEx",
+    "path": "sprites/sprTileSetEx/sprTileSetEx.yy",
   },
   "spriteNoExport": true,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
   },
-  "tile_count": 12,
+  "tile_count": 10,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -37,8 +37,6 @@
       7,
       8,
       9,
-      10,
-      11,
     ],
     "SerialiseFrameCount": 1,
   },
