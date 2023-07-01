@@ -77,7 +77,7 @@
   "resources": [
     {"id":{"name":"__input_key_get_name","path":"scripts/__input_key_get_name/__input_key_get_name.yy",},},
     {"id":{"name":"input_source_add","path":"scripts/input_source_add/input_source_add.yy",},},
-    {"id":{"name":"sprTestTilesEX","path":"sprites/sprTestTilesEX/sprTestTilesEX.yy",},},
+    {"id":{"name":"sprPenis","path":"sprites/sprPenis/sprPenis.yy",},},
     {"id":{"name":"input_source_detect_input","path":"scripts/input_source_detect_input/input_source_detect_input.yy",},},
     {"id":{"name":"__input_class_gamepad","path":"scripts/__input_class_gamepad/__input_class_gamepad.yy",},},
     {"id":{"name":"__input_config_verb_behaviour","path":"scripts/__input_config_verb_behaviour/__input_config_verb_behaviour.yy",},},
