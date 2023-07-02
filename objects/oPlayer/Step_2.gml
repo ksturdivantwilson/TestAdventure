@@ -10,9 +10,9 @@ camera_set_view_pos(view_camera[0], x-halfViewWidth,y-halfViewHeight)
 #endregion
 
 
-myKnives.depth = depth - 1;
-myKnives.x = x + lengthdir_x(knives_dis, aim_dir);
-myKnives.y = y + lengthdir_x(knives_dis, aim_dir);
+myWeapon.depth = depth - 1;
+myWeapon.x = x + lengthdir_x(weapon_dis, aim_dir);
+myWeapon.y = y + lengthdir_x(weapon_dis, aim_dir);
 
 
 

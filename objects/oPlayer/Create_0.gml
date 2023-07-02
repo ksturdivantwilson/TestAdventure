@@ -10,31 +10,26 @@ hSpeed = 0;
 vSpeed = 0;
 aim_dir = 0;
 speedWalk = 2.0;
+classTimer = 0;
 playerMode = 0;
 
-if playerMode = 0 {
+//check step for the changing classes
+// init sprites
 spriteIdle = sprRogue;
 spriteRun = sprRogueRun;
 localFrame = 0;
-}
-
-
 
 
 //Weapons
 fire_rate = 100;
-
-//Knives
-knives_dis = 3;
+weapon_dis = 3;
 can_fire = true;
-knife_speed = 8;
+proj_speed = 8;
+//Knives
 
-myKnives = instance_create_layer(x, y, "Instances", oKnifeHolster)
-
+myWeapon = instance_create_layer(x, y, "Instances", oKnifeHolster)
 cursor_sprite = sprRangeCursor;
-
 window_set_cursor(cr_none);
-
 
 
 
