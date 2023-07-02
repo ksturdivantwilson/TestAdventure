@@ -10,9 +10,9 @@ keyItem = keyboard_check_pressed(vk_control);
 inputDirection = point_direction(0,0,inRight - inLeft,inDown - inUp);
 inputMagnitude = (inRight - inLeft != 0) || (inDown - inUp != 0);
 
-// Mouse Direction and weapon direction
+// Mouse Direction and weapon direction and facing
 aim_dir = point_direction(x,y,mouse_x,mouse_y);
-
+CheckFacing();
 
 
 //Movement

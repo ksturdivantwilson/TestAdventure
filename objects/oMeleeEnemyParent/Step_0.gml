@@ -7,6 +7,7 @@ switch(state){
 	case states.MOVE:
 	CheckPlayer();
 	EnemyAnim();
+	CheckFacing();
 	break;
 	
 	case states.ATTACK:
