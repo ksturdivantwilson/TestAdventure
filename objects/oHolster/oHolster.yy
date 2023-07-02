@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oKnifeDie",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
-  ],
+  "name": "oHolster",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprKnifeDie",
-    "path": "sprites/sprKnifeDie/sprKnifeDie.yy",
+    "name": "sprKnifeHolster",
+    "path": "sprites/sprKnifeHolster/sprKnifeHolster.yy",
   },
   "spriteMaskId": null,
   "visible": true,
