@@ -12,7 +12,7 @@ inputMagnitude = (inRight - inLeft != 0) || (inDown - inUp != 0);
 
 // Mouse Direction and weapon direction
 aim_dir = point_direction(x,y,mouse_x,mouse_y);
-myKnives.image_angle = aim_dir;
+myWeapon.image_angle = aim_dir;
 
 
 //Movement
@@ -40,3 +40,38 @@ if(_oldSprite != sprite_index) localFrame=0;
 
 //update image index
 PlayerAnimateSprite();
+
+//change class timer
+classTimer +=1;
+if(classTimer == 240)
+{
+	if(playerMode ==2)
+	{
+		playerMode = 0;
+	}
+	else
+	{
+		playerMode++;
+	}
+	classTimer = 0;
+}
+// class change sprite
+if playerMode = 0 {
+spriteIdle = sprRogue;
+spriteRun = sprRogueRun;
+
+
+}
+if playerMode = 1 
+{
+	spriteIdle = sprMage;
+	spriteRun = sprMageRun;
+	
+	
+}
+if playerMode = 2
+{
+	spriteIdle = sprRogue;
+	spriteRun = sprRogueRun;
+	
+}

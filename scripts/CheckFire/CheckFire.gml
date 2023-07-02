@@ -9,16 +9,29 @@ if mouse_check_button(mb_left){
 		
 		var _dir = point_direction(x,y, mouse_x, mouse_y);
 		
+		//knife attack
+		if(playerMode == 0 )
+		{
+			var _inst = instance_create_layer(x,y, "Weapon", oKnife);
+			with(_inst) {
+				speed = other.proj_speed;
+				direction = _dir;
+				image_angle = _dir;
+				owner_id = other;
+				}
+		}
 		
-		
-		var _inst = instance_create_layer(x,y, "Weapon", oKnife);
-		with(_inst) {
-			speed = other.knife_speed;
-			direction = _dir;
-			image_angle = _dir;
-			owner_id = other;
-		
-			}
+		//fireballer attack
+		if(playerMode == 1 )
+		{
+			var _inst = instance_create_layer(x,y, "Weapon", oKnife);
+			with(_inst) {
+				speed = other.proj_speed;
+				direction = _dir;
+				image_angle = _dir;
+				owner_id = other;
+				}
 		}
 	}
+}
 }
