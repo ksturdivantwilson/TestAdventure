@@ -7,5 +7,5 @@ knockback_time = 1;
 
 function knife_die(){
 	speed = 0;
-	instance_change(oKnifeDie, false);
+	instance_change(oProjDie, false);
 }

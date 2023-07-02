@@ -12,7 +12,7 @@ inputMagnitude = (inRight - inLeft != 0) || (inDown - inUp != 0);
 
 // Mouse Direction and weapon direction
 aim_dir = point_direction(x,y,mouse_x,mouse_y);
-myWeapon.image_angle = aim_dir;
+
 
 
 //Movement
@@ -59,14 +59,31 @@ if(classTimer == 240)
 if playerMode = 0 {
 spriteIdle = sprRogue;
 spriteRun = sprRogueRun;
-
-
+weapon_dis = 3;
+myWeapon.sprite_index = sprKnifeHolster
+	myWeapon.image_xscale = 1;
+	myWeapon.image_yscale = 1;
+	myWeapon.depth = depth- 1;
+myWeapon.image_angle = aim_dir;
 }
 if playerMode = 1 
 {
 	spriteIdle = sprMage;
 	spriteRun = sprMageRun;
-	
+	myWeapon.sprite_index = sprFireHolster;
+	myWeapon.image_xscale = 0.5;
+	myWeapon.image_yscale = 0.5;
+	myWeapon.image_angle = 0;
+	show_debug_message(aim_dir);
+	if(aim_dir <= 180)
+	{
+		myWeapon.depth = depth + 1;	
+	}
+	else
+	{
+		myWeapon.depth = depth - 1;	
+	}
+	weapon_dis = 10;
 	
 }
 if playerMode = 2

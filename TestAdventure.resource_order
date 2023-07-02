@@ -63,7 +63,7 @@
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"oKnifeDie","order":1,"path":"objects/oKnifeDie/oKnifeDie.yy",},
+    {"name":"oProjDie","order":1,"path":"objects/oProjDie/oProjDie.yy",},
     {"name":"input_source_detect_input","order":2,"path":"scripts/input_source_detect_input/input_source_detect_input.yy",},
     {"name":"__input_class_gamepad","order":4,"path":"scripts/__input_class_gamepad/__input_class_gamepad.yy",},
     {"name":"__input_config_verb_behaviour","order":11,"path":"scripts/__input_config_verb_behaviour/__input_config_verb_behaviour.yy",},
@@ -275,7 +275,7 @@
     {"name":"input_system_import","order":10,"path":"scripts/input_system_import/input_system_import.yy",},
     {"name":"input_radial_sector","order":2,"path":"scripts/input_radial_sector/input_radial_sector.yy",},
     {"name":"input_accessibility_verb_toggle_get","order":6,"path":"scripts/input_accessibility_verb_toggle_get/input_accessibility_verb_toggle_get.yy",},
-    {"name":"oKnifeHolster","order":2,"path":"objects/oKnifeHolster/oKnifeHolster.yy",},
+    {"name":"oHolster","order":2,"path":"objects/oHolster/oHolster.yy",},
     {"name":"input_binding_get_source_type","order":4,"path":"scripts/input_binding_get_source_type/input_binding_get_source_type.yy",},
     {"name":"input_ignore_key_remove","order":4,"path":"scripts/input_ignore_key_remove/input_ignore_key_remove.yy",},
     {"name":"input_binding_get","order":2,"path":"scripts/input_binding_get/input_binding_get.yy",},

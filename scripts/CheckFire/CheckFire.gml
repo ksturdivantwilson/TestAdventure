@@ -12,7 +12,7 @@ if mouse_check_button(mb_left){
 		//knife attack
 		if(playerMode == 0 )
 		{
-			var _inst = instance_create_layer(x,y, "Weapon", oKnife);
+			var _inst = instance_create_layer(x,y, "Weapon", oProj);
 			with(_inst) {
 				speed = other.proj_speed;
 				direction = _dir;
@@ -24,7 +24,7 @@ if mouse_check_button(mb_left){
 		//fireballer attack
 		if(playerMode == 1 )
 		{
-			var _inst = instance_create_layer(x,y, "Weapon", oKnife);
+			var _inst = instance_create_layer(x,y, "Weapon", oProj);
 			with(_inst) {
 				speed = other.proj_speed;
 				direction = _dir;

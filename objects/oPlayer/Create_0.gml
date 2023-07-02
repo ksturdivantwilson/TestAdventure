@@ -26,8 +26,7 @@ weapon_dis = 3;
 can_fire = true;
 proj_speed = 8;
 //Knives
-
-myWeapon = instance_create_layer(x, y, "Instances", oKnifeHolster)
+myWeapon = instance_create_layer(x, y, "Instances", oHolster)
 cursor_sprite = sprRangeCursor;
 window_set_cursor(cr_none);
 
