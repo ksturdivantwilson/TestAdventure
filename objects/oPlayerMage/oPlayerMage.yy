@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite17",
-    "path": "sprites/Sprite17/Sprite17.yy",
+    "name": "sprRogueRun",
+    "path": "sprites/sprRogueRun/sprRogueRun.yy",
   },
   "spriteMaskId": null,
   "visible": true,

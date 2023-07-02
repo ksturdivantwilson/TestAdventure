@@ -10,8 +10,8 @@
     "path": "folders/Objects/Entity/Enemy/Rats.yy",
   },
   "parentObjectId": {
-    "name": "oRatParent",
-    "path": "objects/oRatParent/oRatParent.yy",
+    "name": "oMeleeEnemyParent",
+    "path": "objects/oMeleeEnemyParent/oMeleeEnemyParent.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -9,7 +9,10 @@
     "name": "Other",
     "path": "folders/Objects/Other.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oObstacle",
+    "path": "objects/oObstacle/oObstacle.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sTree",
-    "path": "sprites/sTree/sTree.yy",
+    "name": "sprTree",
+    "path": "sprites/sprTree/sprTree.yy",
   },
   "spriteMaskId": null,
   "visible": true,
