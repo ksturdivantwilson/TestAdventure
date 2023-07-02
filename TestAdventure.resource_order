@@ -131,6 +131,7 @@
     {"name":"__input_class_trigger_effect_feedback","order":10,"path":"scripts/__input_class_trigger_effect_feedback/__input_class_trigger_effect_feedback.yy",},
     {"name":"__input_config_icons","order":5,"path":"scripts/__input_config_icons/__input_config_icons.yy",},
     {"name":"input_check_long_released","order":5,"path":"scripts/input_check_long_released/input_check_long_released.yy",},
+    {"name":"sprFistRun","order":5,"path":"sprites/sprFistRun/sprFistRun.yy",},
     {"name":"input_cursor_coord_space_set","order":1,"path":"scripts/input_cursor_coord_space_set/input_cursor_coord_space_set.yy",},
     {"name":"sprTree","order":2,"path":"sprites/sprTree/sprTree.yy",},
     {"name":"PlayerCollision","order":4,"path":"scripts/PlayerCollision/PlayerCollision.yy",},

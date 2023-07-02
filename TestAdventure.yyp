@@ -167,6 +167,7 @@
     {"id":{"name":"__input_config_icons","path":"scripts/__input_config_icons/__input_config_icons.yy",},},
     {"id":{"name":"input_check_long_released","path":"scripts/input_check_long_released/input_check_long_released.yy",},},
     {"id":{"name":"input_cursor_elastic_get","path":"scripts/input_cursor_elastic_get/input_cursor_elastic_get.yy",},},
+    {"id":{"name":"sprFistRun","path":"sprites/sprFistRun/sprFistRun.yy",},},
     {"id":{"name":"input_cursor_coord_space_set","path":"scripts/input_cursor_coord_space_set/input_cursor_coord_space_set.yy",},},
     {"id":{"name":"sprTree","path":"sprites/sprTree/sprTree.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
