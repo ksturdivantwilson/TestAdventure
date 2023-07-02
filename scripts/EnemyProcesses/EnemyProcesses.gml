@@ -19,8 +19,6 @@ if _dis <= _attackDis {
 
 function CheckFacing(){
 	
-var _facing = sign(x - xp);
-if _facing != 0 facing = _facing;
 
 }
 
