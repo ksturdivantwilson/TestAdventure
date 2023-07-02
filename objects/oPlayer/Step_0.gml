@@ -21,7 +21,7 @@ vSpeed = lengthdir_y(inputMagnitude * speedWalk,inputDirection);
 
 PlayerCollision();
 
-
+draw_text_scribble(10, 10, "[fnt_large][c_red][fa_left]Hello world!");
 
 // checks for attack
 CheckFire();
