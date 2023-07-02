@@ -9,7 +9,13 @@ switch(state){
 	EnemyAnim();
 	break;
 	
-
+	case states.ATTACK:
+	EnemyAnim();
+	break;
+	
+	case states.DIE:
+	
+	break;
 
 }
 

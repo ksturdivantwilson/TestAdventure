@@ -415,6 +415,7 @@
     {"id":{"name":"sprTileSetEx","path":"sprites/sprTileSetEx/sprTileSetEx.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"input_player_active_set","path":"scripts/input_player_active_set/input_player_active_set.yy",},},
+    {"id":{"name":"sprAxe","path":"sprites/sprAxe/sprAxe.yy",},},
     {"id":{"name":"input_trigger_effect_weapon","path":"scripts/input_trigger_effect_weapon/input_trigger_effect_weapon.yy",},},
     {"id":{"name":"CheckFire","path":"scripts/CheckFire/CheckFire.yy",},},
     {"id":{"name":"input_binding_empty","path":"scripts/input_binding_empty/input_binding_empty.yy",},},
