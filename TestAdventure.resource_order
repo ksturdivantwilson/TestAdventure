@@ -353,6 +353,7 @@
     {"name":"input_trigger_effect_get_state","order":2,"path":"scripts/input_trigger_effect_get_state/input_trigger_effect_get_state.yy",},
     {"name":"sprTileSetEx","order":2,"path":"sprites/sprTileSetEx/sprTileSetEx.yy",},
     {"name":"input_player_active_set","order":1,"path":"scripts/input_player_active_set/input_player_active_set.yy",},
+    {"name":"sprAxe","order":6,"path":"sprites/sprAxe/sprAxe.yy",},
     {"name":"input_trigger_effect_weapon","order":8,"path":"scripts/input_trigger_effect_weapon/input_trigger_effect_weapon.yy",},
     {"name":"CheckFire","order":3,"path":"scripts/CheckFire/CheckFire.yy",},
     {"name":"input_cursor_limit_get","order":6,"path":"scripts/input_cursor_limit_get/input_cursor_limit_get.yy",},
