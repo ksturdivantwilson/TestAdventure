@@ -89,6 +89,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cursors","folderPath":"folders/Sprites/Weapons/Cursors.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Scripts/Enemy.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles",},
@@ -446,6 +447,7 @@
     {"id":{"name":"__scribble_class_null_element","path":"scripts/__scribble_class_null_element/__scribble_class_null_element.yy",},},
     {"id":{"name":"__scribble_class_page","path":"scripts/__scribble_class_page/__scribble_class_page.yy",},},
     {"id":{"name":"string_length_scribble","path":"scripts/string_length_scribble/string_length_scribble.yy",},},
+    {"id":{"name":"ShowHealth","path":"scripts/ShowHealth/ShowHealth.yy",},},
     {"id":{"name":"input_source_is_available","path":"scripts/input_source_is_available/input_source_is_available.yy",},},
     {"id":{"name":"__input_finalize_default_profiles","path":"scripts/__input_finalize_default_profiles/__input_finalize_default_profiles.yy",},},
     {"id":{"name":"input_system_export","path":"scripts/input_system_export/input_system_export.yy",},},

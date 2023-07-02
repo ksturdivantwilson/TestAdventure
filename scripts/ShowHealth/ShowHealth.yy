@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "EnemyProcesses",
+  "name": "ShowHealth",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

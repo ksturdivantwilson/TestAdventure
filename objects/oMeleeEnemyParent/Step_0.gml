@@ -10,15 +10,20 @@ if(point_direction(x,y,oPlayer.x,oPlayer.y) < 280 && point_direction(x,y,oPlayer
 	{
 		image_xscale = -1;
 	}
+	
+ShowHealth();
+
 switch(state){
 	
 	case states.MOVE:
 	CheckPlayer();
 	EnemyAnim();
+	
 	break;
 	
 	case states.ATTACK:
 	EnemyAnim();
+	
 	break;
 	
 	case states.DIE:

@@ -76,6 +76,7 @@
     {"name":"Cursors","order":2,"path":"folders/Sprites/Weapons/Cursors.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
+    {"name":"Enemy","order":7,"path":"folders/Scripts/Enemy.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oProjDie","order":1,"path":"objects/oProjDie/oProjDie.yy",},
@@ -136,7 +137,6 @@
     {"name":"__input_gamepad_set_blacklist","order":3,"path":"scripts/__input_gamepad_set_blacklist/__input_gamepad_set_blacklist.yy",},
     {"name":"__input_key_is_ignored","order":1,"path":"scripts/__input_key_is_ignored/__input_key_is_ignored.yy",},
     {"name":"sprRogueRun","order":3,"path":"sprites/sprRogueRun/sprRogueRun.yy",},
-    {"name":"EnemyProcesses","order":6,"path":"scripts/EnemyProcesses/EnemyProcesses.yy",},
     {"name":"input_binding_gamepad_set","order":1,"path":"scripts/input_binding_gamepad_set/input_binding_gamepad_set.yy",},
     {"name":"input_debug_player_input","order":2,"path":"scripts/input_debug_player_input/input_debug_player_input.yy",},
     {"name":"input_player_import","order":2,"path":"scripts/input_player_import/input_player_import.yy",},
@@ -380,6 +380,7 @@
     {"name":"__scribble_class_null_element","order":4,"path":"scripts/__scribble_class_null_element/__scribble_class_null_element.yy",},
     {"name":"__scribble_class_page","order":5,"path":"scripts/__scribble_class_page/__scribble_class_page.yy",},
     {"name":"string_length_scribble","order":4,"path":"scripts/string_length_scribble/string_length_scribble.yy",},
+    {"name":"ShowHealth","order":1,"path":"scripts/ShowHealth/ShowHealth.yy",},
     {"name":"input_source_is_available","order":5,"path":"scripts/input_source_is_available/input_source_is_available.yy",},
     {"name":"__input_finalize_default_profiles","order":2,"path":"scripts/__input_finalize_default_profiles/__input_finalize_default_profiles.yy",},
     {"name":"input_system_export","order":9,"path":"scripts/input_system_export/input_system_export.yy",},
