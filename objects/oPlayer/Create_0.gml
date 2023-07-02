@@ -12,6 +12,7 @@ aim_dir = 0;
 speedWalk = 2.0;
 classTimer = 0;
 playerMode = 0;
+playerHealth = 10;
 
 //check step for the changing classes
 // init sprites
