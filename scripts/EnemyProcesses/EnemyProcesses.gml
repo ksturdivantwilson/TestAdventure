@@ -46,3 +46,16 @@ xp = x;
 yp = y;
 
 }
+	
+	
+function DamageEnemy(_tid, _sid, _damage){
+	
+	with(_tid){
+		hp -= _damage
+		if hp <= 0 {
+			state = states.DIE
+		}
+	
+}
+
+}

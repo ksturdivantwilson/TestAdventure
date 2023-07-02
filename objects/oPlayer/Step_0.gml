@@ -12,7 +12,6 @@ inputMagnitude = (inRight - inLeft != 0) || (inDown - inUp != 0);
 
 // Mouse Direction and weapon direction and facing
 aim_dir = point_direction(x,y,mouse_x,mouse_y);
-CheckFacing();
 
 
 //Movement

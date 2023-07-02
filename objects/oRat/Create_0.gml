@@ -4,5 +4,7 @@
 // Inherit the parent event
 event_inherited();
 
+hpMax = 15;
+hp = hpMax;
 s_walk = sprRatIdle;
 s_attack = sprRatAttack;
