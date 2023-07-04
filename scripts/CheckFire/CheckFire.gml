@@ -9,7 +9,7 @@ if mouse_check_button(mb_left){
 		
 		var _dir = point_direction(x,y, mouse_x, mouse_y);
 		
-		//knife attack
+		//Rogue attack
 		if(playerMode == 0 )
 		{
 			var _inst = instance_create_layer(x,y, "Weapon", oProj);
@@ -21,7 +21,7 @@ if mouse_check_button(mb_left){
 				}
 		}
 		
-		//fireballer attack
+		//Mage attack
 		if(playerMode == 1 )
 		{
 			var _inst = instance_create_layer(x,y, "Weapon", oProj);
@@ -32,6 +32,18 @@ if mouse_check_button(mb_left){
 				owner_id = other;
 				}
 		}
+		
+		if (playerMode == 2) 
+		{
+			var _inst = instance_create_layer(x+5,y+5, "Weapon", oProj);
+			with(_inst) {
+				speed = 0;
+				direction = _dir;
+				image_angle = _dir;
+				owner_id = other;
+			}
+		}
+		
 	}
 }
 }

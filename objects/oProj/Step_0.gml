@@ -8,7 +8,13 @@ if(oPlayer.playerMode = 0)
 if(oPlayer.playerMode = 1)
 {
 	sprite_index = sprFireHolster;
-	object_set_sprite(oProjDie,sprFire);
+	object_set_sprite(oProjDie, sprFire);
+}
+
+if (oPlayer.playerMode = 2)
+{
+	sprite_index = sprAxe;
+	
 }
 
 var _dis = point_distance(xstart, ystart, x, y);
