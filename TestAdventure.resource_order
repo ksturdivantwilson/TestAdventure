@@ -64,6 +64,7 @@
     {"name":"Quick Functions","order":8,"path":"folders/Scribble/Quick Functions.yy",},
     {"name":"Superfonts","order":9,"path":"folders/Scribble/Superfonts.yy",},
     {"name":"Scripts","order":21,"path":"folders/Scripts.yy",},
+    {"name":"Enemy","order":7,"path":"folders/Scripts/Enemy.yy",},
     {"name":"Sequences","order":12,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":7,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":5,"path":"folders/Sounds.yy",},
@@ -76,7 +77,6 @@
     {"name":"Cursors","order":2,"path":"folders/Sprites/Weapons/Cursors.yy",},
     {"name":"Tile Sets","order":4,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":9,"path":"folders/Timelines.yy",},
-    {"name":"Enemy","order":7,"path":"folders/Scripts/Enemy.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"oProjDie","order":1,"path":"objects/oProjDie/oProjDie.yy",},
