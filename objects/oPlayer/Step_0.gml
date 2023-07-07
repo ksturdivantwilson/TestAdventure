@@ -30,8 +30,7 @@ PlayerCollision();
 
 draw_text_scribble(10, 10, "[fnt_large][c_red][fa_left]Hello world!");
 
-// checks for attack
-CheckFire();
+
 
 
 // update sprite index
@@ -63,6 +62,7 @@ if(classTimer == 240)
 	classTimer = 0;
 }
 // class change sprite
+// Is a Rogue
 if playerMode = 0 {
 spriteIdle = sprRogue;
 spriteRun = sprRogueRun;
@@ -73,6 +73,7 @@ myWeapon.sprite_index = sprKnifeHolster
 	myWeapon.depth = depth- 1;
 myWeapon.image_angle = aim_dir;
 }
+// Is a Mage
 if playerMode = 1 
 {
 	spriteIdle = sprMage;
@@ -93,6 +94,7 @@ if playerMode = 1
 	weapon_dis = 10;
 	
 }
+// Is a Fist
 if playerMode = 2
 {
 	spriteIdle = sprPlayerFist;
@@ -112,3 +114,6 @@ if playerMode = 2
 	}
 	
 }
+
+// checks for attack
+CheckFire();

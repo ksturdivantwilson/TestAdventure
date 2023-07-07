@@ -10,9 +10,10 @@ hSpeed = 0;
 vSpeed = 0;
 aim_dir = 0;
 speedWalk = 2.0;
-classTimer = 0;
 playerMode = 0;
 playerHealth = 3;
+attacksTilChange = 0;
+classTimer = 0;
 
 //check step for the changing classes
 // init sprites
@@ -26,7 +27,7 @@ fire_rate = 100;
 weapon_dis = 3;
 can_fire = true;
 proj_speed = 8;
-//Knives
+
 myWeapon = instance_create_layer(x, y, "Instances", oHolster)
 cursor_sprite = sprRangeCursor;
 window_set_cursor(cr_none);
